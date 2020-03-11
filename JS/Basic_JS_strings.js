@@ -13,10 +13,10 @@ document.write(D);
 
 var E = "I've got the ";
 var F = "blues. ";
-var F = F.fontcolor("blue");
+F = F.fontcolor("blue");
 document.write(E + F);
 
 var G = "The answer to life. the universe, and everything is: ";
-var G += "42";
+G += "42";
 
-document.write(G);
+document.getElementById("theMeaning").innerHTML = G;
