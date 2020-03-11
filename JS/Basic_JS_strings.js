@@ -16,6 +16,7 @@ var F = "blues. ";
 var F = F.fontcolor("blue");
 document.write(E + F);
 
-var G = 42;
+var G = "The answer to life. the universe, and everything is: ";
+var G += "42";
 
-document.write("The answer to life. the universe, and everything is: " + G);
+document.write(G);

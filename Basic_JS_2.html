@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+        <title>Basic JavaScript 2 - Counter</title>
+	</head>
+	<body>
+
+        <button onclick="timer=setInterval(counterFunction,1000)" onmouseover="this.style.backgroundColor='#26E600'"
+                onmouseout="this.style.backgroundColor='#20C200'" style="background-color:#20C200">Press to start time</button>
+
+        <button onclick="clearInterval(timer)" onmouseover="this.style.backgroundColor='#FF3059'"
+                onmouseout="this.style.backgroundColor='#E52B50'" style="background-color:#E52B50">Press to stop time</button>
+
+        <p id="counterDisplay"></p>
+        <script src="./JS/Basic_JS_2.js"></script>
+
+	</body>
+</html>
