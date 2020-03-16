@@ -25,7 +25,7 @@ function computerDisplayFunction() {
     document.getElementById("Nested_Function").innerHTML =
     "After upgrading, Allison's computer has " + Allison.Computer_RAM_GB +
     " GB of RAM.";
-
+    
 }
     
  
