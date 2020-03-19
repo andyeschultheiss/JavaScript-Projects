@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./CSS/Basic_Slideshow.css">
+
+        <title>Basic Bicycle Slideshow with CSS and JavaScript</title>
+
+	</head>
+	<body>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+        <!-- Full-width images with numbering and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="./Images/LukeSpacehorse-1.jpg" style="width:100%">
+                <div class="text">Elven Blue All-City Space Horse</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="./Images/B_and_W_SH.jpg" style="width:100%">
+                <div class="text">Space Horse Disc in B&W</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="./Images/classy_green.jpg" style="width:100%">
+                <div class="text">Randonneur Setup in British Racing Green</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="./Images/Green-SS.jpg" style="width:100%">
+                <div class="text">Single-Speed Build</div>
+            </div>
+
+
+        <!-- Previous and Next buttons -->
+            <a class="prev" onclick="moveSlides(-1)">&#10094; Prev</a>
+            <a class="next" onclick="moveSlides(1)">Next &#10095;</a>
+        </div>
+        <br>
+
+        <!-- Jump Dots -->
+        <div style="text-align:center">
+            <span class="dot" onclick="jumpSlide(1)"></span>
+            <span class="dot" onclick="jumpSlide(2)"></span>
+            <span class="dot" onclick="jumpSlide(3)"></span>
+            <span class="dot" onclick="jumpSlide(4)"></span>
+        </div>
+
+        <script src="./JS/Basic_Slideshow.js"></script>
+
+    </body>
+
+</html>
