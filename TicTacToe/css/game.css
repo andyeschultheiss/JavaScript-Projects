@@ -1,0 +1,265 @@
+
+body {
+    background-color: #fff;
+}
+
+#shell {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#gameMsgBox {
+    cursor: pointer;
+    display: none;
+    width: 500px;
+    height: 340px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 140px 0 0 230px;
+    z-index: 100;
+    background-color: rgba(232, 236, 242, 0.95);
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.55);
+}
+
+#gameMsgBox #gameMsg {
+    cursor: pointer;
+    margin: 4% auto;
+    text-align: center;
+    color: #0f4c81;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 2rem;
+}
+
+#photoBox {
+    display: none;
+    background-image: url("../images/boredcat2.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.55);
+}
+
+table {
+    width: 620px;
+    margin: 0 auto;
+    box-shadow: 5px 4px 15px -2px rgba(0,0,0,0.45);
+    border-radius: 8px;
+    float: left;
+    background-color: #e5e6e8;
+}
+
+td {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-width: 4px;
+    border-style: inset;
+    border-color: #e5e6e8;
+}
+
+table tr:nth-child(-n+3) td:nth-child(-n+3) {
+    background-color: #CBF7CB;
+}
+
+table tr:nth-child(-n+3) td:nth-child(-n+3):hover {
+    background-color: #D7F7D7;
+}
+
+table tr:nth-child(1) td:nth-child(1) {
+    border-radius: 8px 0px 0px 0px;
+}
+
+table tr:nth-child(1) td:nth-child(3) {
+    border-radius: 0px 8px 0px 0px;
+}
+
+table tr:nth-child(3) td:nth-child(3) {
+    border-radius: 0px 0px 8px 0px;
+}
+
+table tr:nth-child(3) td:nth-child(1) {
+    border-radius: 0px 0px 0px 8px;
+}
+
+.O {
+    transition: transform .3s;
+    opacity: 1;
+    position: absolute;
+    background-image: url("../images/avatarO.png");
+    width: 200px;
+    height: 200px;
+    transform: translateY(-100%);
+    z-index: 10;
+}
+
+.X {
+    transition: transform .3s;
+    opacity: 1;
+    background-image: url("../images/avatarX.png");
+    width: 200px;
+    height: 200px;
+    transform: translateY(100%);
+    z-index: 10;
+}
+
+.console_Left {
+    width: 200px;
+    height: 600px;
+    margin: 0px 0px 0px 8px;
+    float: left;
+}
+
+.console_Right {
+    width: 200px;
+    height: 600px;
+    margin: 0px auto;
+    float: left;
+}
+
+.displayBox {
+    background-color: rgba(15, 76, 129, 0.95);
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 2%;
+    box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+
+.displayBox:hover {
+    background-color: rgba(15, 76, 129, 0.85);
+}
+
+.boxLeft {
+    float: left;
+    margin: 0px 0px 0px 16px;
+    width: 120px;
+    height: 120px;
+}
+
+.boxRight {
+    float: right;
+    margin: 0px 8px 0px 0px;
+    width: 120px;
+    height: 140px;
+}
+
+.boxRight>button {
+    cursor: pointer;
+    margin: 8px 0px 8px 8px;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-family: Tahoma;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(155, 155, 155, 0.95);
+    border: 2px solid rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+
+.boxRight>button:hover {
+    background-color: rgba(194, 194, 194, 0.95);
+    border: 1px solid rgba(0,0,0,0.85);
+    box-shadow: 3px 3px 12px -4px rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+
+#controls {
+    width: 200px;
+    float: center;
+    margin: 0 auto;
+}
+
+#showHeader {
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    margin: 0px;
+    background-color: #0f4c81;
+    border: 2px solid black;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#showPlayer {
+    color: #db3835;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    border: 2px solid black;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#messageFrame {
+    width: 120px;
+    height: 80px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    text-align: center;
+    margin: 360px 0px 0px 20px;
+    box-shadow: 4px 4px 16px -3px rgba(0,0,0,0.65);
+    border-radius: 8px;
+}
+
+#boardState {
+    display: none;
+    font-size: 1rem;
+    margin: 8px auto;
+    float: left;
+}
+
+#btnStart {
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    border: 2px solid rgb(47, 131, 47);
+    background-color: rgb(95, 220, 55);
+    margin: 20px 0px 0px 25px;
+    padding: 12px 14px 12px 14px;
+    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.9), 3px 3px 15px -4px rgba(255,255,255,0.9);
+    border-radius: 8px;
+}
+
+#btnStart:hover {
+    background-color: rgb(120, 245, 75);
+}
+
+#btnStop {
+    cursor: pointer;
+    float: right;
+    font-family: Tahoma;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+    border: 2px solid rgb(164, 64, 48);
+    background-color: rgb(220, 75, 55);
+    margin: 20px 12px 0px 25px;
+    padding: 12px 14px 12px 14px;
+    box-shadow: inset 3px 3px 15px -2px rgba(255,255,255,0.9), 3px 3px 15px -4px rgba(255,255,255,0.9);
+    border-radius: 8px;
+}
+
+#btnStop:hover {
+    background-color: rgb(224, 94, 94);
+}
+
+#settingsBtn {
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.25);
+}
