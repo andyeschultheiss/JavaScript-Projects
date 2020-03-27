@@ -1,0 +1,101 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #e93532;
+}
+
+body {
+    background-color: rgb(255, 255, 177);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#menuBG {
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+#formMenu {
+    width: 800px;
+    height: 300px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+#showText {
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 40px;
+}
+
+#msgBox {
+    display: none;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    background-color: rgba(232, 236, 242, 0.85);
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.55);
+}
+
+#photoBox {
+    display: none;
+    background-image: url("../img/tmnt.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 540px;
+    box-shadow: 3px 3px 18px -2px rgba(0,0,0,0.55);
+}
