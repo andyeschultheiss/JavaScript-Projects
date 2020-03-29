@@ -1,0 +1,83 @@
+<ROSTER>
+
+    <player>
+        <name>Carmelo Anthony</name>
+        <position>Forward</position>
+    </player>
+
+    <player>
+        <name>Trevor Ariza</name>
+        <position>Forward</position>
+    </player>
+
+    <player>
+        <name>Moses Brown</name>
+        <position>Center</position>
+    </player>
+
+    <player>
+        <name>Zach Collins</name>
+        <position>Forward-Center</position>
+    </player>
+
+    <player>
+        <name>Wenyen Gabriel</name>
+        <position>Forward</position>
+    </player>
+
+    <player>
+        <name>Mario Hezonja</name>
+        <position>Guard-Forward</position>
+    </player>
+
+    <player>
+        <name>Jaylen Hoard</name>
+        <position>Forward</position>
+    </player>
+
+    <player>
+        <name>Rodney Hood</name>
+        <position>Guard-Forward</position>
+    </player>
+
+    <player>
+        <name>Damian Lillard</name>
+        <position>Guard</position>
+    </player>
+
+    <player>
+        <name>Nassir Little</name>
+        <position>Guard-Forward</position>
+    </player>
+
+    <player>
+        <name>CJ McCollum</name>
+        <position>Guard</position>
+    </player>
+
+    <player>
+        <name>Jusuf Nurkic</name>
+        <position>Center</position>
+    </player>
+
+    <player>
+        <name>Anfernee Simons</name>
+        <position>Guard</position>
+    </player>
+
+    <player>
+        <name>Caleb Swanigan</name>
+        <position>Forward</position>
+    </player>
+
+    <player>
+        <name>Gary Trent Jr.</name>
+        <position>Guard-Forward</position>
+    </player>
+
+    <player>
+        <name>Hassan Whiteside</name>
+        <position>Center</position>
+    </player>
+    
+</ROSTER>

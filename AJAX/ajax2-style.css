@@ -1,0 +1,124 @@
+
+body {
+  background: #fff;
+  padding: 50px 0 0;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+}
+
+.main, menu {
+  display: block;
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: darkblue;
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 0 auto;
+  font-size: .75em;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.main h2 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 15px;
+  width: 700px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #edeff0;
+  box-shadow: 1px 2px 8px 2px #3574a0;
+}
+
+table {
+  box-shadow: 1px 1px 4px 1px black;
+}
+
+table, th, td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: solid 2px #c72d2d;
+  border-style: inset;
+}
+
+th, td {
+  padding: 6px;
+}
+
+.button {
+  background: #3f8abf;
+  padding: 1px 18px 0 20px;
+  margin: 20px auto;
+  font-family: "Varela Round", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: white;
+  font-weight: 500;
+  border: 3px solid #3f8abf;
+  outline: none;
+  cursor: pointer;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 0 0 #3574a0;
+  -moz-box-shadow: 0 2px 0 0 #3574a0;
+  box-shadow: 0 2px 0 0 #3574a0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.button:hover {
+  background: #397cac;
+  border-color: #397cac;
+  -webkit-box-shadow: 0 2px 0 0 #2c6085;
+  -moz-box-shadow: 0 2px 0 0 #2c6085;
+  box-shadow: 0 2px 0 0 #2c6085;
+}
+
+input[type=text] {
+  margin: 0 auto;
+  width: 250px;
+  font-size: .95em;
+  text-align: center;
+}
+
+label {
+	padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: darkblue;
+  font-weight: 300;
+}
+
+textarea {
+  width: 250px;
+  font-size: .95em;
+}
+
+select {
+  width: 250px;
+  font-size: .95em;
+}
