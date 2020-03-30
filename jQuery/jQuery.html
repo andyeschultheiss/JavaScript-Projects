@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <title>jQuery Demo</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+    
+    <script>
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='1'>Paragraph</p>\
+                            <p id='2'>Paragraph</p>\
+                            <p id='3'>Paragraph</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $("#1").css({"color":"red"});
+            $("#2").css({"color":"green"});
+            $("#3").css({"color":"blue"});
+
+            $("#3").click(function () {
+                $('h1').hide();
+            });
+        });
+    </script>
+
+	</body>
+</html>
